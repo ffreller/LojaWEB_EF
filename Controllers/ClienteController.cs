@@ -3,6 +3,7 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using LojaWEB_EF.Models;
 using LojaWEB_EF.Contextos;
+using Microsoft.EntityFrameworkCore;
 
 namespace LojaWEB_EF.Controllers
 {
@@ -22,10 +23,10 @@ namespace LojaWEB_EF.Controllers
             return contexto.Cliente.ToList();
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{idCliente}")]
         public Cliente Listar(int idCliente)
         {
-            return contexto.Cliente.Where(x => x.idCliente == idCliente).FirstOrDefault();
+            return contexto.Cliente.Include("Pedido").Where(x => x.idCliente == idCliente).FirstOrDefault();
         }
 
         [HttpPost]
@@ -43,7 +44,7 @@ namespace LojaWEB_EF.Controllers
                 return BadRequest();
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("{idCliente}")]
         public IActionResult Atualizar (int idCliente, [FromBody] Cliente cliente)
         {
             if (cliente == null || cliente.idCliente!=idCliente){
@@ -69,7 +70,7 @@ namespace LojaWEB_EF.Controllers
 
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("{idCliente}")]
         public IActionResult Apagar (int idCliente)
         {
             var cliente = contexto.Cliente.Where(x=>x.idCliente==idCliente).FirstOrDefault();
