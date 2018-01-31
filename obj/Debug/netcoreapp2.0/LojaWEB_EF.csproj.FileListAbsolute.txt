@@ -1,0 +1,10 @@
+C:\Users\40809588897\Desktop\Programar\2018\3semana\LojaWEB_EF\bin\Debug\netcoreapp2.0\LojaWEB_EF.deps.json
+C:\Users\40809588897\Desktop\Programar\2018\3semana\LojaWEB_EF\bin\Debug\netcoreapp2.0\LojaWEB_EF.runtimeconfig.json
+C:\Users\40809588897\Desktop\Programar\2018\3semana\LojaWEB_EF\bin\Debug\netcoreapp2.0\LojaWEB_EF.runtimeconfig.dev.json
+C:\Users\40809588897\Desktop\Programar\2018\3semana\LojaWEB_EF\bin\Debug\netcoreapp2.0\LojaWEB_EF.dll
+C:\Users\40809588897\Desktop\Programar\2018\3semana\LojaWEB_EF\bin\Debug\netcoreapp2.0\LojaWEB_EF.pdb
+C:\Users\40809588897\Desktop\Programar\2018\3semana\LojaWEB_EF\obj\Debug\netcoreapp2.0\LojaWEB_EF.csproj.CoreCompileInputs.cache
+C:\Users\40809588897\Desktop\Programar\2018\3semana\LojaWEB_EF\obj\Debug\netcoreapp2.0\LojaWEB_EF.AssemblyInfoInputs.cache
+C:\Users\40809588897\Desktop\Programar\2018\3semana\LojaWEB_EF\obj\Debug\netcoreapp2.0\LojaWEB_EF.AssemblyInfo.cs
+C:\Users\40809588897\Desktop\Programar\2018\3semana\LojaWEB_EF\obj\Debug\netcoreapp2.0\LojaWEB_EF.dll
+C:\Users\40809588897\Desktop\Programar\2018\3semana\LojaWEB_EF\obj\Debug\netcoreapp2.0\LojaWEB_EF.pdb
